@@ -16,7 +16,7 @@
       ignore_errors: yes
 
     - name: build docker image using the Dockerfile
-      command: docker build -t ghassan8080/simple_project2 .
+      command: docker build -t ghassan8080/simple_project .
 
     - name: Push Image to dockerhub
       command: docker push ghassan8080/simple_project
